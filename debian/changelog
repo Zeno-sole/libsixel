@@ -1,3 +1,15 @@
+libsixel (1.10.5-1deepin3) unstable; urgency=medium
+
+  * Backport CVE-2026 security fixes from upstream saitoha/libsixel
+    - CVE-2026-33023: Integer overflow in DCS parameter scaling
+    - CVE-2026-33020: Parser cursor overflow in SIXEL decoder
+    - CVE-2026-33018: Null pointer dereference in palette allocation
+    - CVE-2026-33021: Integer overflow in highcolor encoder
+    - CVE-2026-44636: Integer overflows in encoder and quantizer
+    - CVE-2026-44637: Bad-free in libpng and improper frame lifecycle
+
+ -- lichenggang <lichenggang@uniontech.com>  Thu, 21 May 2026 21:50:00 +0800
+
 libsixel (1.10.5-1deepin2) unstable; urgency=medium
 
   * Fix CVE-2025-9300: heap buffer overflow in encoder.c

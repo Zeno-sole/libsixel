@@ -8,3 +8,9 @@
 # 0008-check-number-of-repeat_count.patch
 CVE-2025-61146.patch
 CVE-2025-9300.patch
+CVE-2026-33023.patch
+CVE-2026-33020.patch
+CVE-2026-33018.patch
+CVE-2026-33021.patch
+CVE-2026-44636.patch
+CVE-2026-44637.patch
