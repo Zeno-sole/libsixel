@@ -1,3 +1,11 @@
+libsixel (1.10.5-1deepin4) unstable; urgency=medium
+
+  * Backport CVE-2026-33019 fix from upstream saitoha/libsixel
+    - CVE-2026-33019: GIF transparent color index heap buffer overflow
+      and encoder resize target integer overflow
+
+ -- lichenggang <lichenggang@uniontech.com>  Tue, 02 Jun 2026 17:30:00 +0800
+
 libsixel (1.10.5-1deepin3) unstable; urgency=medium
 
   * Backport CVE-2026 security fixes from upstream saitoha/libsixel
